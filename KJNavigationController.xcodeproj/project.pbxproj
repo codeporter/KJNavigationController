@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C6C0A221F5A95D80027A398 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A211F5A95D80027A398 /* main.m */; };
+		7C6C0A251F5A95D80027A398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A241F5A95D80027A398 /* AppDelegate.m */; };
+		7C6C0A281F5A95D80027A398 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A271F5A95D80027A398 /* ViewController.m */; };
+		7C6C0A2B1F5A95D80027A398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C0A291F5A95D80027A398 /* Main.storyboard */; };
+		7C6C0A2D1F5A95D80027A398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C0A2C1F5A95D80027A398 /* Assets.xcassets */; };
+		7C6C0A301F5A95D80027A398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C0A2E1F5A95D80027A398 /* LaunchScreen.storyboard */; };
+		7C6C0A3B1F5A95D80027A398 /* KJNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A3A1F5A95D80027A398 /* KJNavigationControllerTests.m */; };
+		7C6C0A461F5A95D80027A398 /* KJNavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A451F5A95D80027A398 /* KJNavigationControllerUITests.m */; };
+		7C6C0A601F5A961D0027A398 /* KJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A551F5A961D0027A398 /* KJNavigationController.m */; };
+		7C6C0A611F5A961D0027A398 /* KJPopAnimatior.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A571F5A961D0027A398 /* KJPopAnimatior.m */; };
+		7C6C0A621F5A961D0027A398 /* KJPushAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A591F5A961D0027A398 /* KJPushAnimator.m */; };
+		7C6C0A631F5A961D0027A398 /* UIView+KJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A5B1F5A961D0027A398 /* UIView+KJFrame.m */; };
+		7C6C0A641F5A961D0027A398 /* UIViewController+KJNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A5D1F5A961D0027A398 /* UIViewController+KJNavigationBar.m */; };
+		7C6C0A651F5A961D0027A398 /* UINavigationBar+KJAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A5F1F5A961D0027A398 /* UINavigationBar+KJAddition.m */; };
+		7C6C0A6A1F5A96590027A398 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A671F5A96590027A398 /* SecondViewController.m */; };
+		7C6C0A6B1F5A96590027A398 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C0A691F5A96590027A398 /* ThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C6C0A371F5A95D80027A398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C6C0A151F5A95D80027A398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C6C0A1C1F5A95D80027A398;
+			remoteInfo = KJNavigationController;
+		};
+		7C6C0A421F5A95D80027A398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C6C0A151F5A95D80027A398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C6C0A1C1F5A95D80027A398;
+			remoteInfo = KJNavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C6C0A1D1F5A95D80027A398 /* KJNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6C0A211F5A95D80027A398 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C6C0A231F5A95D80027A398 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C6C0A241F5A95D80027A398 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C6C0A261F5A95D80027A398 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7C6C0A271F5A95D80027A398 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C6C0A2A1F5A95D80027A398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C6C0A2C1F5A95D80027A398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C6C0A2F1F5A95D80027A398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C6C0A311F5A95D80027A398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C6C0A361F5A95D80027A398 /* KJNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6C0A3A1F5A95D80027A398 /* KJNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJNavigationControllerTests.m; sourceTree = "<group>"; };
+		7C6C0A3C1F5A95D80027A398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C6C0A411F5A95D80027A398 /* KJNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6C0A451F5A95D80027A398 /* KJNavigationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJNavigationControllerUITests.m; sourceTree = "<group>"; };
+		7C6C0A471F5A95D80027A398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C6C0A541F5A961D0027A398 /* KJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJNavigationController.h; sourceTree = "<group>"; };
+		7C6C0A551F5A961D0027A398 /* KJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJNavigationController.m; sourceTree = "<group>"; };
+		7C6C0A561F5A961D0027A398 /* KJPopAnimatior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJPopAnimatior.h; sourceTree = "<group>"; };
+		7C6C0A571F5A961D0027A398 /* KJPopAnimatior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJPopAnimatior.m; sourceTree = "<group>"; };
+		7C6C0A581F5A961D0027A398 /* KJPushAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJPushAnimator.h; sourceTree = "<group>"; };
+		7C6C0A591F5A961D0027A398 /* KJPushAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJPushAnimator.m; sourceTree = "<group>"; };
+		7C6C0A5A1F5A961D0027A398 /* UIView+KJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KJFrame.h"; sourceTree = "<group>"; };
+		7C6C0A5B1F5A961D0027A398 /* UIView+KJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KJFrame.m"; sourceTree = "<group>"; };
+		7C6C0A5C1F5A961D0027A398 /* UIViewController+KJNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KJNavigationBar.h"; sourceTree = "<group>"; };
+		7C6C0A5D1F5A961D0027A398 /* UIViewController+KJNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KJNavigationBar.m"; sourceTree = "<group>"; };
+		7C6C0A5E1F5A961D0027A398 /* UINavigationBar+KJAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+KJAddition.h"; sourceTree = "<group>"; };
+		7C6C0A5F1F5A961D0027A398 /* UINavigationBar+KJAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+KJAddition.m"; sourceTree = "<group>"; };
+		7C6C0A661F5A96590027A398 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7C6C0A671F5A96590027A398 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7C6C0A681F5A96590027A398 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7C6C0A691F5A96590027A398 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C6C0A1A1F5A95D80027A398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6C0A331F5A95D80027A398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6C0A3E1F5A95D80027A398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C6C0A141F5A95D80027A398 = {
+			isa = PBXGroup;
+			children = (
+				7C6C0A531F5A96100027A398 /* Class */,
+				7C6C0A1F1F5A95D80027A398 /* KJNavigationController */,
+				7C6C0A391F5A95D80027A398 /* KJNavigationControllerTests */,
+				7C6C0A441F5A95D80027A398 /* KJNavigationControllerUITests */,
+				7C6C0A1E1F5A95D80027A398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C6C0A1E1F5A95D80027A398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C6C0A1D1F5A95D80027A398 /* KJNavigationController.app */,
+				7C6C0A361F5A95D80027A398 /* KJNavigationControllerTests.xctest */,
+				7C6C0A411F5A95D80027A398 /* KJNavigationControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C6C0A1F1F5A95D80027A398 /* KJNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				7C6C0A231F5A95D80027A398 /* AppDelegate.h */,
+				7C6C0A241F5A95D80027A398 /* AppDelegate.m */,
+				7C6C0A261F5A95D80027A398 /* ViewController.h */,
+				7C6C0A271F5A95D80027A398 /* ViewController.m */,
+				7C6C0A661F5A96590027A398 /* SecondViewController.h */,
+				7C6C0A671F5A96590027A398 /* SecondViewController.m */,
+				7C6C0A681F5A96590027A398 /* ThirdViewController.h */,
+				7C6C0A691F5A96590027A398 /* ThirdViewController.m */,
+				7C6C0A291F5A95D80027A398 /* Main.storyboard */,
+				7C6C0A2C1F5A95D80027A398 /* Assets.xcassets */,
+				7C6C0A2E1F5A95D80027A398 /* LaunchScreen.storyboard */,
+				7C6C0A311F5A95D80027A398 /* Info.plist */,
+				7C6C0A201F5A95D80027A398 /* Supporting Files */,
+			);
+			path = KJNavigationController;
+			sourceTree = "<group>";
+		};
+		7C6C0A201F5A95D80027A398 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C6C0A211F5A95D80027A398 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C6C0A391F5A95D80027A398 /* KJNavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C6C0A3A1F5A95D80027A398 /* KJNavigationControllerTests.m */,
+				7C6C0A3C1F5A95D80027A398 /* Info.plist */,
+			);
+			path = KJNavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		7C6C0A441F5A95D80027A398 /* KJNavigationControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C6C0A451F5A95D80027A398 /* KJNavigationControllerUITests.m */,
+				7C6C0A471F5A95D80027A398 /* Info.plist */,
+			);
+			path = KJNavigationControllerUITests;
+			sourceTree = "<group>";
+		};
+		7C6C0A531F5A96100027A398 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7C6C0A541F5A961D0027A398 /* KJNavigationController.h */,
+				7C6C0A551F5A961D0027A398 /* KJNavigationController.m */,
+				7C6C0A561F5A961D0027A398 /* KJPopAnimatior.h */,
+				7C6C0A571F5A961D0027A398 /* KJPopAnimatior.m */,
+				7C6C0A581F5A961D0027A398 /* KJPushAnimator.h */,
+				7C6C0A591F5A961D0027A398 /* KJPushAnimator.m */,
+				7C6C0A5A1F5A961D0027A398 /* UIView+KJFrame.h */,
+				7C6C0A5B1F5A961D0027A398 /* UIView+KJFrame.m */,
+				7C6C0A5C1F5A961D0027A398 /* UIViewController+KJNavigationBar.h */,
+				7C6C0A5D1F5A961D0027A398 /* UIViewController+KJNavigationBar.m */,
+				7C6C0A5E1F5A961D0027A398 /* UINavigationBar+KJAddition.h */,
+				7C6C0A5F1F5A961D0027A398 /* UINavigationBar+KJAddition.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C6C0A1C1F5A95D80027A398 /* KJNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6C0A4A1F5A95D90027A398 /* Build configuration list for PBXNativeTarget "KJNavigationController" */;
+			buildPhases = (
+				7C6C0A191F5A95D80027A398 /* Sources */,
+				7C6C0A1A1F5A95D80027A398 /* Frameworks */,
+				7C6C0A1B1F5A95D80027A398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJNavigationController;
+			productName = KJNavigationController;
+			productReference = 7C6C0A1D1F5A95D80027A398 /* KJNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C6C0A351F5A95D80027A398 /* KJNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6C0A4D1F5A95D90027A398 /* Build configuration list for PBXNativeTarget "KJNavigationControllerTests" */;
+			buildPhases = (
+				7C6C0A321F5A95D80027A398 /* Sources */,
+				7C6C0A331F5A95D80027A398 /* Frameworks */,
+				7C6C0A341F5A95D80027A398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C6C0A381F5A95D80027A398 /* PBXTargetDependency */,
+			);
+			name = KJNavigationControllerTests;
+			productName = KJNavigationControllerTests;
+			productReference = 7C6C0A361F5A95D80027A398 /* KJNavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C6C0A401F5A95D80027A398 /* KJNavigationControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6C0A501F5A95D90027A398 /* Build configuration list for PBXNativeTarget "KJNavigationControllerUITests" */;
+			buildPhases = (
+				7C6C0A3D1F5A95D80027A398 /* Sources */,
+				7C6C0A3E1F5A95D80027A398 /* Frameworks */,
+				7C6C0A3F1F5A95D80027A398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C6C0A431F5A95D80027A398 /* PBXTargetDependency */,
+			);
+			name = KJNavigationControllerUITests;
+			productName = KJNavigationControllerUITests;
+			productReference = 7C6C0A411F5A95D80027A398 /* KJNavigationControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C6C0A151F5A95D80027A398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kejunapple;
+				TargetAttributes = {
+					7C6C0A1C1F5A95D80027A398 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = NW3H9DFN5R;
+						ProvisioningStyle = Automatic;
+					};
+					7C6C0A351F5A95D80027A398 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = NW3H9DFN5R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7C6C0A1C1F5A95D80027A398;
+					};
+					7C6C0A401F5A95D80027A398 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = NW3H9DFN5R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7C6C0A1C1F5A95D80027A398;
+					};
+				};
+			};
+			buildConfigurationList = 7C6C0A181F5A95D80027A398 /* Build configuration list for PBXProject "KJNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C6C0A141F5A95D80027A398;
+			productRefGroup = 7C6C0A1E1F5A95D80027A398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C6C0A1C1F5A95D80027A398 /* KJNavigationController */,
+				7C6C0A351F5A95D80027A398 /* KJNavigationControllerTests */,
+				7C6C0A401F5A95D80027A398 /* KJNavigationControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C6C0A1B1F5A95D80027A398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6C0A301F5A95D80027A398 /* LaunchScreen.storyboard in Resources */,
+				7C6C0A2D1F5A95D80027A398 /* Assets.xcassets in Resources */,
+				7C6C0A2B1F5A95D80027A398 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6C0A341F5A95D80027A398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6C0A3F1F5A95D80027A398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C6C0A191F5A95D80027A398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6C0A6A1F5A96590027A398 /* SecondViewController.m in Sources */,
+				7C6C0A651F5A961D0027A398 /* UINavigationBar+KJAddition.m in Sources */,
+				7C6C0A601F5A961D0027A398 /* KJNavigationController.m in Sources */,
+				7C6C0A621F5A961D0027A398 /* KJPushAnimator.m in Sources */,
+				7C6C0A281F5A95D80027A398 /* ViewController.m in Sources */,
+				7C6C0A6B1F5A96590027A398 /* ThirdViewController.m in Sources */,
+				7C6C0A641F5A961D0027A398 /* UIViewController+KJNavigationBar.m in Sources */,
+				7C6C0A251F5A95D80027A398 /* AppDelegate.m in Sources */,
+				7C6C0A631F5A961D0027A398 /* UIView+KJFrame.m in Sources */,
+				7C6C0A611F5A961D0027A398 /* KJPopAnimatior.m in Sources */,
+				7C6C0A221F5A95D80027A398 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6C0A321F5A95D80027A398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6C0A3B1F5A95D80027A398 /* KJNavigationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6C0A3D1F5A95D80027A398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6C0A461F5A95D80027A398 /* KJNavigationControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C6C0A381F5A95D80027A398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C6C0A1C1F5A95D80027A398 /* KJNavigationController */;
+			targetProxy = 7C6C0A371F5A95D80027A398 /* PBXContainerItemProxy */;
+		};
+		7C6C0A431F5A95D80027A398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C6C0A1C1F5A95D80027A398 /* KJNavigationController */;
+			targetProxy = 7C6C0A421F5A95D80027A398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C6C0A291F5A95D80027A398 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C6C0A2A1F5A95D80027A398 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C6C0A2E1F5A95D80027A398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C6C0A2F1F5A95D80027A398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C6C0A481F5A95D90027A398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C6C0A491F5A95D90027A398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C6C0A4B1F5A95D90027A398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NW3H9DFN5R;
+				INFOPLIST_FILE = KJNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kejun.KJNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7C6C0A4C1F5A95D90027A398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NW3H9DFN5R;
+				INFOPLIST_FILE = KJNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kejun.KJNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7C6C0A4E1F5A95D90027A398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NW3H9DFN5R;
+				INFOPLIST_FILE = KJNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kejun.KJNavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJNavigationController.app/KJNavigationController";
+			};
+			name = Debug;
+		};
+		7C6C0A4F1F5A95D90027A398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NW3H9DFN5R;
+				INFOPLIST_FILE = KJNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kejun.KJNavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJNavigationController.app/KJNavigationController";
+			};
+			name = Release;
+		};
+		7C6C0A511F5A95D90027A398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NW3H9DFN5R;
+				INFOPLIST_FILE = KJNavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kejun.KJNavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KJNavigationController;
+			};
+			name = Debug;
+		};
+		7C6C0A521F5A95D90027A398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NW3H9DFN5R;
+				INFOPLIST_FILE = KJNavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kejun.KJNavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KJNavigationController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C6C0A181F5A95D80027A398 /* Build configuration list for PBXProject "KJNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6C0A481F5A95D90027A398 /* Debug */,
+				7C6C0A491F5A95D90027A398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6C0A4A1F5A95D90027A398 /* Build configuration list for PBXNativeTarget "KJNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6C0A4B1F5A95D90027A398 /* Debug */,
+				7C6C0A4C1F5A95D90027A398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C6C0A4D1F5A95D90027A398 /* Build configuration list for PBXNativeTarget "KJNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6C0A4E1F5A95D90027A398 /* Debug */,
+				7C6C0A4F1F5A95D90027A398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C6C0A501F5A95D90027A398 /* Build configuration list for PBXNativeTarget "KJNavigationControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6C0A511F5A95D90027A398 /* Debug */,
+				7C6C0A521F5A95D90027A398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C6C0A151F5A95D80027A398 /* Project object */;
+}
